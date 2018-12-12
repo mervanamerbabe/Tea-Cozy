@@ -1,35 +1,50 @@
 <!DOCTYPE css>
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+
+}
 header{
   background-color: black;
-}
-header.flex-container{
+  border-bottom: 1px solid seashell;
 
 }
+/*logo*/
+
 .logo{
   background-color: black;
+  padding-left: 10px;
 }
-.logo.image{
-
+.logo.image.content{
+  padding-left: 10px;
 }
 
-.main.nav{
-
+nav span{
+  text-decoration-style: solid;
+  color: seashell;
+  background-color: black
 }
-.main{
 
-}
 a{
-  color: white;
+  background-color: black;
+  color: seashell;
 }
-.mission{
+ /*Mission section*/
+
+.overlay{
 
 }
 h2{
 
 }
-h3{
+h4{
 
 }
+
+/*Featured Products*/
 .featured.products{
 
 }
@@ -42,3 +57,8 @@ h2{
 .flex{
 
 }
+/*Locations*/
+
+/*Contact*/
+
+/*Footer*/
