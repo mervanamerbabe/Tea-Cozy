@@ -42,14 +42,21 @@ header {
 	margin: 0 10px;
 }
  /*Mission section*/
-
-.overlay{
+.mission{
+  display: inline;
+}
+.overlay img{
   background-color: black;
-  height: 1200px;
+  height: 700px;
+  width: 1200px;
 }
 .text.block{
   background-color: black;
   color: seashell;
+
+  text-align: center;
+  width: 1200px;
+
 
 }
 h2{
