@@ -1,41 +1,55 @@
-<!DOCTYPE css>
 body{
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
-  background-color: black;
-  opacity: 0.9;
-
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+ /* this should push the rest of your stuff (but not the header) down so it's not stuck under your fixed header */
 }
-header{
-  background-color: black;
-  border-bottom: 1px solid seashell;
 
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+  margin: 0;
+	height: 69px;
+	width: 100%;
+	background-color: black;
+	border-bottom: 1px solid seashell;
+	position: fixed;
 }
+
 /*logo*/
-
-.logo{
-  background-color: black;
-  padding-left: 10px;
+.logo {
+	flex-shrink: 1;
+   /* I'm not sure you need this */
 }
-.logo.image.content{
-  padding-left: 10px;
-}
-
-nav span{
-  text-decoration-style: solid;
-  color: seashell;
-  background-color: black;
-  display:
+.logo img {
+	height: 50px;
+	width: auto;
+	display: block;
 }
 
-a{
-  background-color: black;
-  color: seashell;
+ /*navigation*/
+.links {
+	display: flex;
+
+}
+.links a {
+	color: seashell;
+	text-decoration: underline;
+	margin: 0 10px;
 }
  /*Mission section*/
 
 .overlay{
+  background-color: black;
+  height: 1200px;
+}
+.text.block{
+  background-color: black;
+  color: seashell;
 
 }
 h2{
@@ -61,5 +75,11 @@ h2{
 /*Locations*/
 
 /*Contact*/
+container{
+  height: 200px;
+}
+.contact{
+
+}
 
 /*Footer*/
