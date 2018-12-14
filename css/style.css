@@ -2,9 +2,9 @@ body{
 	font-family: Helvetica;
 	font-size: 22px;
 	color: seashell;
+	align-items: center;
 	background-color: black;
-	opacity: 0.9;
- /* this should push the rest of your stuff (but not the header) down so it's not stuck under your fixed header */
+	opacity: 0.9; /* this should push the rest (but not the header) down so it's not stuck under fixed header */
 }
 
 header {
@@ -22,8 +22,7 @@ header {
 
 /*logo*/
 .logo {
-	flex-shrink: 1;
-   /* I'm not sure you need this */
+	flex-shrink: 1; /* I'm not sure I need this */
 }
 .logo img {
 	height: 50px;
@@ -42,38 +41,30 @@ header {
 	margin: 0 10px;
 }
  /*Mission section*/
-.mission{
-  display: inline;
+ .mission{
+
+ }
+.mission image-content{
 }
 .overlay img{
-  background-color: black;
-  height: 700px;
+	height: 700px;
   width: 1200px;
+
 }
-.text.block{
+text-block span {
   background-color: black;
   color: seashell;
-
-  text-align: center;
   width: 1200px;
-
-
 }
-h2{
 
-}
-h4{
-
-}
 
 /*Featured Products*/
-.featured.products{
-
+.flex-container2{
+		width: 1000px;
 }
-h1{
-
+.flex-container2 p{
+	align-items: center;
 }
-h2{
 
 }
 .flex{
@@ -82,7 +73,7 @@ h2{
 /*Locations*/
 
 /*Contact*/
-container{
+container {
   height: 200px;
 }
 .contact{
