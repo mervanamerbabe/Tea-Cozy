@@ -2,9 +2,9 @@ body{
 	font-family: Helvetica;
 	font-size: 22px;
 	color: seashell;
-	align-items: center;
 	background-color: black;
-	opacity: 0.9; /* this should push the rest (but not the header) down so it's not stuck under fixed header */
+	opacity: 0.9;
+	margin: 0;
 }
 
 header {
@@ -58,15 +58,10 @@ nav a{
  /*Mission section*/
  .main-content{
 	 display: flex;
-	 position: static;
 	 flex-direction: column;
 	 justify-content: center;
-	 width: 1300px;
-	 margin-top: auto;
-	 margin-right: auto;
-	 margin-bottom: 20px;
-	 margin-left: auto;
-	 padding-top: 0;
+	 align-items: center;
+	 width: 100%;
 	 background-color: black;
  }
 .image-content{
@@ -159,14 +154,18 @@ nav a{
 .locationblock {
 	width: 300px;
 	background-color: black;
-	justify-content:
+	text-align: center;
+	opacity: 1;
 }
 /*Contact*/
 .container {
   height: 200px;
 }
 .contact{
-
+	text-align: center;
 }
 
 /*Footer*/
+footer{
+	padding-left: 20px;
+}
