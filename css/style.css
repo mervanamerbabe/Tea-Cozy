@@ -11,69 +11,158 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 10px;
+	font-weight: bold;
+	padding: 0;
   margin: 0;
+	margin-left: 0;
+	margin-top: 0;
+	padding: 0;
+	font-size: 22px;
 	height: 69px;
 	width: 100%;
 	background-color: black;
 	border-bottom: 1px solid seashell;
 	position: fixed;
+	top: 0;
+	left: 0;
+
 }
 
 /*logo*/
 .logo {
-	flex-shrink: 1; /* I'm not sure I need this */
+	display: flex;
+	align-items: center;
+	margin-left: 0;
 }
 .logo img {
 	height: 50px;
-	width: auto;
-	display: block;
+	margin-left: 10px;
+	margin-top: 0px;
 }
 
  /*navigation*/
-.links {
-	display: flex;
-
-}
-.links a {
-	color: seashell;
-	text-decoration: underline;
-	margin: 0 10px;
-}
- /*Mission section*/
- .mission{
-
+ nav span{
+	 display: inline;
+	 padding: 20px 10px;
  }
-.mission image-content{
+nav a{
+	color: seashell;
+	opacity: .9;
+	text-decoration: underline;
 }
-.overlay img{
-	height: 700px;
-  width: 1200px;
+ header nav{
+	 padding-right: 20px;
+ }
+ /* main content*/
 
+ /*Mission section*/
+ .main-content{
+	 display: flex;
+	 position: static;
+	 flex-direction: column;
+	 justify-content: center;
+	 width: 1300px;
+	 margin-top: auto;
+	 margin-right: auto;
+	 margin-bottom: 20px;
+	 margin-left: auto;
+	 padding-top: 0;
+	 background-color: black;
+ }
+.image-content{
+	display: flex;
+  flex-direction: column;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-color: black;
+  height: 700px;
+  width: 1200px;
+  margin-top: 69px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-text-block span {
+
+.text-block {
+	display: flex;
+	flex-direction: column;
   background-color: black;
   color: seashell;
   width: 1200px;
 }
-
+.text-block h2{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 0;
+	margin-bottom: auto;
+	}
+.text-block h4{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: auto;
+	margin-bottom: 0;
+}
 
 /*Featured Products*/
-.flex-container2{
-		width: 1000px;
-}
-.flex-container2 p{
+.teaofmonth{
+	display: flex;
+	flex-direction: column;
 	align-items: center;
+	justify-content: center;
+	width: 1000px;
+	margin-top: 60px;
+}
+.teaofmonth h1{
+	margin: 10px 0;
+	padding: 0;
+}
+.teaofmonth h2{
+	margin: 10px 0;
+	padding: 0;
+}
+.box{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.teaitem{
+	text-align: center;
+	padding: 0 10px;
+}
+.teaitem img{
+	width: 300px;
+	height: 200px;
 }
 
-}
-.flex{
-
-}
 /*Locations*/
 
+.locations{
+	display: flex;
+  flex-direction: column;
+  background-image: url("/Users/becca/Desktop/Projects/Tea-Cozy/Resources/img-locations-background.jpg");
+  background-color: black;
+  height: 500px;
+  width: 1000px;
+  text-align: center;
+  align-items: center;
+	background-position: center;
+}
+.locations h4{
+	text-align: center;
+}
+.blocks{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-around;
+}
+.locationblock {
+	width: 300px;
+	background-color: black;
+	justify-content:
+}
 /*Contact*/
-container {
+.container {
   height: 200px;
 }
 .contact{
