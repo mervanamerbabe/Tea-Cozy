@@ -67,7 +67,7 @@ nav a{
 .image-content{
 	display: flex;
   flex-direction: column;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-image: url("../Resources/img-mission-background.jpg");
   background-color: black;
   height: 700px;
   width: 1200px;
@@ -134,7 +134,7 @@ nav a{
 .locations{
 	display: flex;
   flex-direction: column;
-  background-image: url("/Users/becca/Desktop/Projects/Tea-Cozy/Resources/img-locations-background.jpg");
+  background-image: url("../Resources/img-locations-background.jpg");
   background-color: black;
   height: 500px;
   width: 1000px;
